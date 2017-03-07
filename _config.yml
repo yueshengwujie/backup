@@ -3,13 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+#网站标题
 title: 月生无界的博客
-subtitle: 无界伴月生，星辉纵天宇
+#网站副标题
+subtitle: 无界伴月生，星辉纵天宇 
+#网站描述
 description: 作为一名程序猿，我内心仍拥有诗人般的优雅，我的人生，在转角处选错了方向，但我从未后悔！
-author: 月生无界
+#您的名字
+author: 月生无界 
 email: 876838008@qq.com
 keywords: "前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源"
-language: zh-CN
+#网站使用的语言
+language: zh-CN  
+#网站时区。Hexo 默认使用您电脑的时区
+timezone:       
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -40,7 +47,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: ''
 
 # Category & Tag
 default_category: uncategorized
@@ -78,12 +85,18 @@ per_page: 8
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: 
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: yilia
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+# plugins:
+#  - hexo-generator-feed
+#  - hexo-generator-baidu-sitemap
+#  - hexo-generator-sitemap
+
+theme: yilia-biu
+exclude_generator:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -95,7 +108,7 @@ deploy:
 sitemap:
     path: sitemap.xml
 baidusitemap:
-    path: baidusitemap.xm
+    path: baidusitemap.xml
 
 feed:
     type: atom
