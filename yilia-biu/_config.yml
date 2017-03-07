@@ -5,9 +5,9 @@ menu:
   
 # SubNav
 subnav:
-  github: "https://github.com/yueshengwujie/yueshengwujie.github.io"
-  weibo: "#"
-  rss: "#"
+  github: "https://github.com/yueshengwujie"
+  weibo: "http://weibo.com/yueshengwujie"
+  #rss: "#"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
